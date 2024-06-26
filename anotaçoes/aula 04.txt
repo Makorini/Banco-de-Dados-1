@@ -1,0 +1,43 @@
+
+ 
+
+constraint 
+
+ela pode ser uma PK-chave primaria--primary key 
+apesponsavel por garantir a unicidade do regidtro em uma tabela.
+ Registro é o conjunto de dados contidos nas colunas de uma tabela do banco de dados, tambem chamado de TUPLA 
+Uma tabela pode conter apenas uma PK e ela pode ser siomples ou composta 
+
+as constrant sao utilizadas oara especificar as regras de dados em uma tabela.
+ Limitam os tipos de dados que podem ser amarzenados, garanterm a consistencia dos dados e em caso de qualquer eiolacao de uma regra definida a operacao sera abordada e uma execao lancada.
+
+
+
+pode ser nivel de coluna ou de tabelas.
+tipos mais comuns de constraints:
+-NOT NULL-
+-UNIQUE-
+-PRIMARY KEY-
+-FOREIGN KEY- previnir que acoes removam links entre tabelas
+-CHECK- Garantir que valores de uma coluna satisfacam a uma condicao especifica;
+-DEFAULT-
+-CREATE INDEX-
+
+FK- FOREIGN KAY 
+É um campo ou um conjunto de colunas em uma tabela que fazem referencia a uma PK de uma tabela externa 
+uma tabela com uma FK tambem e chamada de  tabela filha, e a tabela com a chave primaria especifica e chamada de  pai ou  mae 
+
+Os relacionamentos entre Entidades se dao atraves de uma espesificacao de CARDINALIDADE, que pode ser:
+1:1 -> um pra um
+1:N
+N:1
+N:N
+
+
+
+
+
+
+UMA IMOBILIARIA PRECISA DE UM BANCO DE DADOS PARA ARMAZENAR INFORMACOES DE SEU ACERVO DE IMOVEIS 
+PARA ISTO E PRECISO  ORGANOZAR OS DADOS DOS ITENS,
+CLASSIFICANDO-OS POR  CATEGORIA (AOARTAMENTOS, CASAS, SITIOS),TIPOS 
